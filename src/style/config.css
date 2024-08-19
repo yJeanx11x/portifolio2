@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  color: #fff;
+}
+body{
+        width: 800px;
+        background: rgb(35, 37, 58);
+        background: linear-gradient(168deg,rgba(35, 37, 58, 1) 0%,rgba(35, 37, 58, 1) 100%);
+}
+a{
+        text-decoration: none;
+
+}
+ul{
+        list-style: none;
+}
