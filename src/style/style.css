@@ -38,7 +38,7 @@ hr {
   background-color: #fff;
   color: #000;
 }
-#contato{
+#contato {
   width: 80px;
   height: 40px;
 display: flex;
@@ -46,8 +46,22 @@ justify-content: center;
 align-items: center;
 margin-left: 39%;
 margin-top: 15px;
-
 }
 #contato a{
 margin: 5px;
+}
+#contato i{
+font-size: 25px;
+margin: 5px;
+}
+#contato i:hover{
+  font-size: 30px;
+  transition: 0.3s;
+  opacity: 50%;
+  color: aqua;
+  transition: all 0.5s ;
+}
+
+.some{
+  display: none;
 }
