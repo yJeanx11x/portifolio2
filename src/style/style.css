@@ -1,10 +1,8 @@
-
 .sobre {
   margin-top: 25%;
   width: 600px;
   height: 250px;
   margin-left: 80px;
-
 }
 .sobre h1 {
   font-size: 45pt;
@@ -18,10 +16,10 @@ hr {
   width: 80px;
   margin-top: 30px;
 }
-.hr2{
+.hr2 {
   width: 180px;
   margin-top: 20px;
-transition: 0.5s;
+  transition: 0.5s;
 }
 .texto p {
   font-size: 15pt;
@@ -64,7 +62,6 @@ transition: 0.5s;
 #contato i {
   font-size: 25px;
   margin: 5px;
-
 }
 #contato i:hover {
   font-size: 30px;
@@ -73,7 +70,6 @@ transition: 0.5s;
   color: aqua;
   transition: all 0.5s;
 }
-
 
 .fotos img {
   width: 100px;
@@ -86,19 +82,55 @@ transition: 0.5s;
 }
 .fotos {
   display: flex;
-
 }
-.fotos img:hover{
+.fotos img:hover {
   color: #fff;
   opacity: 55%;
   cursor: pointer;
-  border: 1px solid aqua ;
+  border: 1px solid aqua;
   padding: 1px;
   transition: 0.5s;
 }
-.sobre ,.fotos{
-display: inline-block;
+.fotosQFP {
+  color: #fff;
+  opacity: 55%;
+  border: 1px solid aqua;
+  padding: 1px;
 }
-.texto-sobre{
-display: none;
+
+.sobre,
+.fotos {
+  display: inline-block;
+}
+.texto-sobre,
+.formacaotxt {
+  display: none;
+}
+.titulo {
+  display: none;
+}
+
+.box {
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  margin-left: 780px;
+  margin-top: -350px;
+  padding: 1px;
+  display: grid;
+  display: flex;
+  opacity: 0;
+}
+.box-projeto {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 15%;
+  margin: 5px;
+}
+.box-projeto p {
+  color: #000;
+  text-align: center;
 }
