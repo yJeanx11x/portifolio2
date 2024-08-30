@@ -1,3 +1,6 @@
+header{
+  width: 100%;
+}
 .sobre {
   margin-top: 25%;
   width: 600px;
@@ -106,9 +109,7 @@ hr {
 .formacaotxt {
   display: none;
 }
-.titulo {
-  display: none;
-}
+
 
 .box {
   width: 850px;
@@ -117,11 +118,11 @@ hr {
   margin: auto;
   align-items: center;
   margin-left: 780px;
-  margin-top: -350px;
+  margin-top: -380px;
   padding: 1px;
-  display: grid;
   display: flex;
   opacity: 0;
+  flex-wrap: wrap;
 }
 .box-projeto {
   width: 250px;
@@ -129,6 +130,7 @@ hr {
   background-color: #fff;
   border-radius: 15%;
   margin: 5px;
+
 }
 .box-projeto p {
   color: #000;

@@ -4,7 +4,6 @@ const sobre = document.querySelector(".sobreM");
 sobre.addEventListener("click", () => {
   if (texto.style.display == "block") {
     texto.style.display = "none";
-    texto.innerHTML = `Meu Nome E jean Lucas`;
   } else {
     texto.style.display = "block";
   }
@@ -18,7 +17,7 @@ function formacao() {
   formacao.addEventListener("click", () => {
     if (texto.style.display == "block") {
       texto.style.display = "none";
-      texto.innerHTML = "Formação";
+      // texto.innerHTML = "Formação";
     } else {
       texto.style.display = "block";
     }

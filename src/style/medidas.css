@@ -1,0 +1,74 @@
+@media (max-width: 450px) {
+  body {
+    width: 414px;
+    height: auto;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+  }
+
+  .sobre {
+    width: 300px;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 15px;
+  }
+
+  .fotos img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    margin-top: 15px;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin-right: 20px;
+  }
+
+  .box {
+    width: 230px;
+    height: 200px;
+    margin: auto;
+    padding: 1px;
+    display: flex;
+    opacity: 0;
+    margin-top: 15px;
+  }
+  .box-projeto {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 15%;
+    
+    padding: 5px;
+  }
+  .texto {
+    width: 300px;
+    text-align: center;
+  }
+  .texto-sobre p {
+    display: flex;
+    font-size: 20px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 15px 70px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: solid 2px #fff;
+    transition: all 0.55s ease;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 20%;
+  }
+  #contato {
+        width: 80px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40%;
+        margin-top: 15px;
+        opacity: 0;
+      }
+}
