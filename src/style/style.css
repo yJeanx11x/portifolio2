@@ -65,6 +65,8 @@ hr {
 #contato i {
   font-size: 25px;
   margin: 5px;
+  /* display: none; */
+
 }
 #contato i:hover {
   font-size: 30px;
@@ -118,11 +120,14 @@ hr {
   margin: auto;
   align-items: center;
   margin-left: 780px;
-  margin-top: -380px;
+  margin-top: -480px;
   padding: 1px;
   display: flex;
   opacity: 0;
   flex-wrap: wrap;
+    display: grid;
+  grid-template-columns: 300px 100px;
+
 }
 .box-projeto {
   width: 250px;

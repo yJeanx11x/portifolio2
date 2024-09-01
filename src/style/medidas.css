@@ -1,11 +1,87 @@
-@media (max-width: 450px) {
+@media (max-width: 860px) {
   body {
+    width: 414px;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+  }
+
+  .sobre {
+    width: 300px;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 15px;
+  }
+  .fotos{
+width: 325px;
+  }
+
+  .fotos img {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    margin-top: 15px;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin-right: 20px;
+  }
+
+  .box {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 1px;
+    opacity: 0;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .box-projeto {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 15%;
+    padding: 5px;
+  }
+  .texto {
+    width: 300px;
+  }
+  .texto-sobre p {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+  }
+  .btn {
+    display: inline-block;
+    padding: 15px 70px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: solid 2px #fff;
+    transition: all 0.55s ease;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 20%;
+  }
+  #contato {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 15px;
+    opacity: 0;
+  }
+}
+@media (max-width: 525px) {
+  /* body {
     width: 414px;
     height: auto;
     justify-content: center;
     margin: auto;
     padding: 5px;
-  }
+  } */
 
   .sobre {
     width: 300px;
@@ -38,16 +114,18 @@
     height: 250px;
     background-color: #fff;
     border-radius: 15%;
-    
+
     padding: 5px;
   }
   .texto {
-    width: 300px;
+    width: 350px;
+    margin-left: -50px;
     text-align: center;
   }
   .texto-sobre p {
-    display: flex;
     font-size: 20px;
+
+    margin-right: 15px;
   }
   .btn {
     display: inline-block;
@@ -62,13 +140,13 @@
     margin-left: 20%;
   }
   #contato {
-        width: 80px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 40%;
-        margin-top: 15px;
-        opacity: 0;
-      }
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 15px;
+    opacity: 0;
+  }
 }
